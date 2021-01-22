@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 10px;
   width: 30%;
   border-radius: 5px;
   box-shadow: 0 10px 12px rgb(0, 0, 0, 0.3);
@@ -40,7 +40,8 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #cacaca;
+  border-bottom: 1px solid #868686;
+  padding: 10px;
 }
 
 #history {
@@ -93,12 +94,12 @@ body {
 
 .operator:hover,
 .number:hover {
-  background-color: #d3d2d2;
+  background-color: #d3d2d2 !important;
 }
 
 .operator:active,
 .number:active {
-  background-color: #fff;
+  background-color: #fff !important;
   color: #ec47da;
   font-weight: 800;
 }
