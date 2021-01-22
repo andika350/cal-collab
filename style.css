@@ -63,7 +63,11 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  align-content: center;
+}
+
+.button-cont {
+  text-align: center;
 }
 
 .operator,
@@ -77,6 +81,7 @@ body {
   font-size: 1.3em;
   cursor: pointer;
   align-content: center;
+  align-self: center;
   box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
 }
@@ -98,27 +103,27 @@ body {
   font-weight: 800;
 }
 
-.number.zero {
-  grid-column: 2/ 4;
+.zero {
+  grid-column: 1/ 4;
 }
 
-button:nth-child(4) {
+.button-cont:nth-child(4) .side {
   font-size: 20px;
   background-color: #20b2aa;
 }
-button:nth-child(8) {
+.button-cont:nth-child(8) .side {
   font-size: 20px;
   background-color: #ffa500;
 }
-button:nth-child(12) {
+.button-cont:nth-child(12) .side {
   font-size: 20px;
   background-color: #f08080;
 }
-button:nth-child(16) {
+.button-cont:nth-child(16) .side {
   font-size: 20px;
   background-color: #7d93e0;
 }
-button:nth-child(18) {
+.button-cont:nth-child(18) .side {
   font-size: 20px;
   background-color: #9477af;
 }
